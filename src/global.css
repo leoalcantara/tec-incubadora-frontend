@@ -1,0 +1,30 @@
+:root {
+    --white    : #fff;    
+    --green-500: #6FBA44;
+    --green-600: #61B233;
+    --blue-500 : #2368B3;
+    --blue-600 : #0959AF;
+    --gray-100 : #F2F2F2;
+    --gray-200 : #EEEEEE;
+    --gray-400 : #7C7C7C;
+    --black-600: #222222;
+    --black-700: #1E1E1E;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--white);
+    color: var(--black-700);
+    -webkit-font-smoothing: antialiased;
+}
+
+body, input, textarea, button {
+    font-family: 'lato', sans-serif;
+    font-size: 400;
+    font-size: 1rem;
+}
