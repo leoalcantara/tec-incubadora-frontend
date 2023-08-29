@@ -9,7 +9,17 @@ export function Header(options) {
         <>
             <header className={styles.header}>
                 <img src={tecIncubadoraLogo} alt="Logo Tec Incubadora" />  
-                <Navbar />                
+                <nav >
+                    <ul className={styles.list}>
+                        <li className={styles.item} ><a href="">Home</a></li>
+                        <li className={styles.item} ><a href="">Sobre Nós</a></li>
+                        <li className={styles.item} ><a href="">Serviços</a></li>
+                        <li className={styles.item} ><a href="">Empresas</a></li>
+                        <li className={styles.item} ><a href="">Comunicação</a></li>
+                        <li className={styles.item} ><a href="">Contato</a></li>
+                    </ul>
+        </nav>
+                               
             </header>
         </>
         
