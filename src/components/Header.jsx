@@ -8,7 +8,8 @@ export function Header(options) {
     return (
         <>
             <header className={styles.header}>
-                <img src={tecIncubadoraLogo} alt="Logo Tec Incubadora" />  
+              <div className={styles.container}> 
+                <img className={styles.logoTec}src={tecIncubadoraLogo} alt="Logo Tec Incubadora" />  
                 <nav >
                     <ul className={styles.list}>
                         <li className={styles.item} ><a href="">Home</a></li>
@@ -18,7 +19,8 @@ export function Header(options) {
                         <li className={styles.item} ><a href="">Comunicação</a></li>
                         <li className={styles.item} ><a href="">Contato</a></li>
                     </ul>
-        </nav>
+                </nav>
+              </div> 
                                
             </header>
         </>

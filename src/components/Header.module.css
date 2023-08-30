@@ -1,18 +1,30 @@
-.header{
+.header{    
     background: var(--white);
     display: flex;    
-    justify-content: space-around;
-    align-items: center;
-    padding: 1.25rem; 
+    justify-content: center;
+    align-items: space-between;   
+    
+    width: 100vw;     
 
     box-shadow:  0 0 2px  0 rgba(0, 0, 0, 0.5);   
+}
+
+.logoTec {
+    max-width: 200px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1000px;
 }
 
 .list {
     display: flex;    
     list-style: none;
     padding: 1.5rem;
-    gap: 1.2rem;
+    gap: 1rem;
 
 }
 
