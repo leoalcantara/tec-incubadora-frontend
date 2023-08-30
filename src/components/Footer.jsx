@@ -1,4 +1,10 @@
 import styles from './Footer.Module.css';
+
+import FacebookIcon from '../assets/icons/icone-face.svg';
+import InstagramIcon from '../assets/icons/icone-insta.svg';
+import LinkedinIcon from '../assets/icons/icone-linkedin.svg';
+import YoutubeIcon from '../assets/icons/icone-youtube.svg';
+
 export function Footer (){
     return (
         <footer className={styles.footer}>
@@ -12,6 +18,13 @@ export function Footer (){
                     <a href="/" className={styles.footerlink}>Sobre nós</a>
                     <a href="/" className={styles.footerlink}>Equipe</a>
                     <a href="/" className={styles.footerlink}>Contato</a>
+
+                    <div className='socialMedia'>                        
+                        <img src={InstagramIcon} alt="" />
+                        <img src={YoutubeIcon} alt="" />
+                        <img src={LinkedinIcon} alt="" />                       
+                        <img src={FacebookIcon} alt="" />
+                    </div>
 
                 </div>                    
 
