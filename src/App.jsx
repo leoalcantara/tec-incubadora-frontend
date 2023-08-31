@@ -1,15 +1,18 @@
+import { ErrorBox } from './components/ErrorBox';
 import { Footer } from './components/Footer';
-import { Header } from './components/Header'
+import { Header } from './components/Header';
+
 
 import './global.css';
 
 function App() {
   
   return (
-    <>
-      <Header/>       
-      <Footer/>   
-    </>
+    <div>
+      <Header/>   
+          <ErrorBox/>
+       
+    </div>
   )
 }
 
