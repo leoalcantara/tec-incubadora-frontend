@@ -2,7 +2,7 @@ footer {
     padding: 80px 60px;
     background: var(--black-600);
     position: absolute;
-    bottom: 0;    
+    bottom: -1;    
     width: 100vw;
 }
 

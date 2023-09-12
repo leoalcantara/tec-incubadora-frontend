@@ -8,13 +8,25 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    height: 550px;
-    width:430px;
+    align-items: center;    
     padding: 10px;
     margin: 25px;
 
     gap: 15px;
+}
+
+.box h1 {
+    color: var(--blue-500);
+    padding-bottom: 1.5rem;
+}
+
+.box p{
+    justify-content: center;
+    color: var(--gray-500);
+}
+
+.box > :nth-child(4) {
+    padding-bottom: 2rem;
 }
 
 .errorimg {
