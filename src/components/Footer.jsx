@@ -19,10 +19,10 @@ export function Footer (){
                     <a href="/" className={styles.footerlink}>Equipe</a>
                     <a href="/" className={styles.footerlink}>Contato</a>
 
-                    <div className='socialMedia'>                        
-                        <img src={InstagramIcon} alt="" />
+                    <div className={styles.socialMedia}>                        
                         <img src={YoutubeIcon} alt="" />
                         <img src={LinkedinIcon} alt="" />                       
+                        <img src={InstagramIcon} alt="" />
                         <img src={FacebookIcon} alt="" />
                     </div>
 

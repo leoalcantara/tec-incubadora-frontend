@@ -40,9 +40,12 @@ footer {
     text-decoration: none;
 }
 
-img {
+.socialMedia img {
     height: 35px;
     height: 35px;
     margin-right: 5px;
     margin-top: 15px;
+
+    cursor: pointer;
 }
+

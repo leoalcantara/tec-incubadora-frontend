@@ -1,7 +1,9 @@
 .container{
     display: flex;
     flex-direction: column;
-    align-items: center;    
+    justify-content: center;
+    align-items: center;
+    height: 100vh;    
 }
 
 .box {
@@ -11,16 +13,16 @@
     align-items: center;    
     padding: 10px;
     margin: 25px;
-
-    gap: 15px;
+    
 }
 
 .box h1 {
     color: var(--blue-500);
-    padding-bottom: 1.5rem;
+    padding: 1.8rem 0;
 }
 
 .box p{
+    font-size: 1.4rem;
     justify-content: center;
     color: var(--gray-500);
 }
@@ -38,9 +40,12 @@
 button {
     color: var(--white);
     background: var(--green-500);
-    border-radius: 25px;
-    width: 120px;
-    height: 35px;    
-
+    border-radius: 50px;
+    width: 200px;
+    height: 60px;  
+    font-size: 2rem !important;
     border: none;
+
+    cursor: pointer;
 }
+
