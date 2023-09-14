@@ -19,25 +19,30 @@ function App() {
 
       <div className={styles.aboutContainer}>
         <div className={styles.aboutBox}>
+          
           <div>
             <div className={styles.circle}>
-              <img src={CertificationIcon} alt="" />
+              <img src={CertificationIcon} alt="" />              
             </div>
+            <p>16 anos de <br/>Trajetória</p>
           </div>
           <div>
             <div className={styles.circle}>
               <img src={CompaniesIcon} alt="" />
             </div>
+            <p>120 Empresas <br/> sensibilizadas</p>
           </div>
           <div>
             <div className={styles.circle}>
               <img src={MentorIngIcon} alt="" />
             </div>
+            <p>500 Mentorias<br/>ministradas</p>
           </div>
           <div>
             <div className={styles.circle}>
               <img src={JobsIcon} alt="" />
             </div>
+            <p>350 Empregos já<br/>foram gerados</p>
           </div>
         </div>
       </div>
