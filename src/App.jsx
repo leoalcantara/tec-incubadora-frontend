@@ -20,54 +20,71 @@ function App() {
       <div className={styles.aboutContainer}>
         <div className={styles.aboutBox}>
           
-          <div>
+          <div className={styles.aboutCard}>
             <div className={styles.circle}>
               <img src={CertificationIcon} alt="" />              
             </div>
-            <p>16 anos de <br/>Trajetória</p>
+            <p>16 anos de Trajetória</p>
           </div>
-          <div>
+
+          <div className={styles.aboutCard}>
             <div className={styles.circle}>
               <img src={CompaniesIcon} alt="" />
             </div>
-            <p>120 Empresas <br/> sensibilizadas</p>
+            <p>120 Empresas sensibilizadas</p>
           </div>
-          <div>
+
+          <div className={styles.aboutCard} >
             <div className={styles.circle}>
               <img src={MentorIngIcon} alt="" />
             </div>
-            <p>500 Mentorias<br/>ministradas</p>
+            <p>500 Mentorias ministradas</p>
           </div>
-          <div>
+
+          <div className={styles.aboutCard}>
             <div className={styles.circle}>
               <img src={JobsIcon} alt="" />
             </div>
-            <p>350 Empregos já<br/>foram gerados</p>
+            <p>350 Empregos já foram gerados</p>
           </div>
+
         </div>
       </div>
 
+
+
       <div className={styles.container}>
         <div className={styles.box}>
+
           <div>
             <img src={ProgramImage} alt="" />
           </div>
+
           <div>
             <h2>Programa de Incubação</h2>
             <span>
-              É através do programa que projetos e ideias <br /> da área de
-              tecnologia são apresentados <br /> e se transformam em startups.
+              É através do programa que projetos e ideias da área de
+              tecnologia são apresentados  e se transformam em startups.
             </span>
             <ul>
-              <li>Aprenda com empreendedores de sucesso</li>
-              <li>Mentorias exclusivas e personalizadas</li>
-              <li>Taxa de 80% de sobrevivência no mercado</li>
-              <li>Networking de alto nível</li>
+              <li className={styles.item}>Aprenda com empreendedores de sucesso</li>
+              <li className={styles.item}>Mentorias exclusivas e personalizadas</li>
+              <li className={styles.item}>Taxa de 80% de sobrevivência no mercado</li>
+              <li className={styles.item}>Networking de alto nível</li>
             </ul>
 
             <button>Conheça mais</button>
           </div>
         </div>
+      </div>
+
+
+      <div className={styles.servicesContainer}>
+        <div className={styles.servicesBox}>
+          <h2>Nossos Serviços</h2>
+          <p>Como incubadora, promovemos a integração entre universidade, indústria e sociedade. Fomentamos empresas de base tecnológica.</p>
+        </div>
+
       </div>
 
       <Footer />
