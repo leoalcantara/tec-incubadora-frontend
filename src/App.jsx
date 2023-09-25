@@ -1,6 +1,5 @@
-import { ErrorBox } from "./components/ErrorBox"
-import { Footer } from "./components/Footer"
-import { Header } from "./components/Header"
+import { Footer } from "./components/Footer/"
+import { Header } from "./components/Header/Index"
 
 import styles from "./App.module.css"
 

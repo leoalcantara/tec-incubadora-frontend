@@ -1,5 +1,5 @@
 import ErrorImage from '../assets/error.svg';
-import styles from './ErrorBox.module.css';
+import styles from './Index';
 
 export function ErrorBox() {
     return (

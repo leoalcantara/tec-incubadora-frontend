@@ -1,9 +1,9 @@
 import styles from './Footer.Module.css';
 
-import FacebookIcon from '../assets/icons/icone-face.svg';
-import InstagramIcon from '../assets/icons/icone-insta.svg';
-import LinkedinIcon from '../assets/icons/icone-linkedin.svg';
-import YoutubeIcon from '../assets/icons/icone-youtube.svg';
+import FacebookIcon from '../../assets/icons/icone-face.svg';
+import InstagramIcon from '../../assets/icons/icone-insta.svg';
+import LinkedinIcon from '../../assets/icons/icone-linkedin.svg';
+import YoutubeIcon from '../../assets/icons/icone-youtube.svg';
 
 export function Footer (){
     return (
