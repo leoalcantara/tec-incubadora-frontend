@@ -1,9 +1,9 @@
 footer {
-    padding: 80px 60px;
+    padding: 70px 60px;
     background: var(--black-600);
     position: absolute;
     bottom: -1;  
-    height: 400px;  
+    
     width: 100vw;
 }
 
@@ -32,7 +32,7 @@ footer {
 .heading{
     font-size: 20px;
     color: var(--white);
-    margin-bottom: 40px;
+    margin: 40px 0;
 }
 
 .footerlink{
