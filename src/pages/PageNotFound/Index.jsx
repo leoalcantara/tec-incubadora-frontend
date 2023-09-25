@@ -1,5 +1,5 @@
 import ErrorImage from '../assets/error.svg';
-import styles from './Index';
+import styles from './PagesM';
 
 export function ErrorBox() {
     return (

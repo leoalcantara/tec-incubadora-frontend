@@ -30,7 +30,7 @@ footer {
 }
 
 .heading{
-    font-size: 20px;
+    font: 2rem !important;
     color: var(--white);
     margin: 40px 0;
 }
