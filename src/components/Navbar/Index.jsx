@@ -1,6 +1,6 @@
 import styles from './Navbar.module.css';
 
-export function Navbar(options) {
+export function Navbar() {
     return (
         <nav >
             <ul className={styles.list}>

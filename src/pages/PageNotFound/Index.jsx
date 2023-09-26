@@ -1,16 +1,17 @@
-import ErrorImage from '../assets/error.svg';
-import styles from './PagesM';
+import { Header } from "../../components/Header";
+import { Footer } from "../../components/Footer";
+import { NotFound } from "../../components/NotFound";
 
-export function ErrorBox() {
-    return (
-        <div className= { styles.container }>
-            <div className={styles.box}>          
-                <img className={styles.errorimg} src={ ErrorImage } alt="" />
-                <h1>Página em construção</h1>
-                <p> Oops... essa página ainda não está disponível.</p>
-                <p>Retorne em breve para ter acesso.</p>
-                <button type='submit'>Voltar</button>
-            </div>
-        </div>   
-    )
+export function PageNotFound() {
+  return (
+    <>
+      <Header />
+      <h1> 404 </h1>
+      <p>Página não encontrada</p>
+      <Footer />
+    </>
+
+  );
 }
+
+
