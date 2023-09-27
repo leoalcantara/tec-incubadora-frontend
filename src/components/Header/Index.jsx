@@ -7,7 +7,7 @@ import tecIncubadoraLogo from '../../assets/tec-incubadora-logo.svg'
 
 export function Header() {
     return (
-        <>
+        <div>
             <header className={styles.header}>
               <div className={styles.container}> 
                 <img className={styles.logoTec}src={tecIncubadoraLogo} alt="Logo Tec Incubadora" />  
@@ -15,7 +15,7 @@ export function Header() {
               </div> 
                                
             </header>
-        </>
+        </div>
         
     )
 }

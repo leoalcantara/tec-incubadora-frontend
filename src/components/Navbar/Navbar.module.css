@@ -10,4 +10,10 @@
 .item {
     margin-right: 1rem;
     box-sizing: border-box;
+
+    cursor: pointer;
+}
+
+.item:hover{
+    font-weight: bold;
 }

@@ -4,11 +4,9 @@ import { NotFound } from "../../components/NotFound";
 
 export function PageNotFound() {
   return (
-    <>
-      <Header />
+    <>      
       <h1> 404 </h1>
-      <p>Página não encontrada</p>
-      <Footer />
+      <p>Página não encontrada</p>      
     </>
 
   );
