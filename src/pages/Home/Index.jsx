@@ -1,11 +1,13 @@
 import { About } from "../../components/About";
+import {Services} from "../../components/Services";
+import {IncubationProgram} from "../../components/IncubationProgram";
 
 export function Home() {
   return (
-    <>      
-      <h1> HOME </h1>
-      <p>Bem-vindo a página principal</p>   
-      <About/>      
+    <>        
+      <About/> 
+      <IncubationProgram/>  
+      <Services/>    
     </> 
    
   );

@@ -62,4 +62,5 @@ footer {
 .socialMedia img:hover {
     height: 40px;
     height: 40px;  
+    margin: 10px 0 0 0;
 }
