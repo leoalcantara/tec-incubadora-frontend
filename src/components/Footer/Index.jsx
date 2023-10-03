@@ -20,10 +20,10 @@ export function Footer (){
                     <a href="/" className={styles.footerlink}>Contato</a>
 
                     <div className={styles.socialMedia}>                        
-                        <img src={YoutubeIcon} alt="" />
-                        <img src={LinkedinIcon} alt="" />                       
-                        <img src={InstagramIcon} alt="" />
-                        <img src={FacebookIcon} alt="" />
+                        <a href="https://www.youtube.com/@tecincubadora1303" target='_blank'><img src={YoutubeIcon} alt="" /></a>
+                        <a href="https://www.linkedin.com/company/tecincubadora/" target='_blank'><img src={LinkedinIcon} alt="" /></a>                       
+                        <a href="https://www.instagram.com/tec.incubadora" target='_blank'><img src={InstagramIcon} alt="" /></a>
+                        <a href="https://facebook.com/tec.incubadora" target='_blank'><img src={FacebookIcon} alt="" /></a>
                     </div>
 
                 </div>                    
