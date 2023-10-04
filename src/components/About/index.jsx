@@ -1,12 +1,10 @@
 import styles from './About.Module.css';
 
 
-import CertificationIcon  from '../../assets/icons/certificado.svg';
-import CompaniesIcon  from '../../assets/icons/empresas.svg';
-import MentorIngIcon  from '../../assets/icons/mentoria.svg';
-import JobsIcon  from '../../assets/icons/empregos.svg';
-
-
+import CertificationIcon from '../../assets/icons/certificado.svg';
+import CompaniesIcon from '../../assets/icons/empresas.svg';
+import MentorIngIcon from '../../assets/icons/mentoria.svg';
+import JobsIcon from '../../assets/icons/empregos.svg';
 
 
 export function About() {

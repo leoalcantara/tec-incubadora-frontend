@@ -1,6 +1,37 @@
 .card {
-    display: flex;
+  padding: 0 10px;
+  width: 500px;
+  height: 210px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  text-align: left;
 
-    height: 220px;
-    width: 510px;
+  gap: 15px;
 }
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  padding: 10px 0; 
+  gap: 20px;  
+  
+}
+
+.circle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  background-color: var(--green-600);
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+}
+
+.circle img {
+  height: 40px;
+}
+
