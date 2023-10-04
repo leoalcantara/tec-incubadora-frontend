@@ -8,7 +8,7 @@ export function ServicesCard(props){
         <div className={styles.card}>
             <div className={styles.header}>
                 <div className={styles.circle}>
-                    <img src={ProgramImage} alt="" />
+                    <img src={props.URLIcon} alt="" />
                 </div>
                 <div className={styles.title}>
                     <h2>{props.title}</h2>
