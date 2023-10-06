@@ -11,10 +11,10 @@ export function ContactForm() {
                 <select name="" id="" placeholder='Sobre o que deseja falar com a gente?'>
 
                     <option value="" disabled selected>Sobre o que deseja falar com a gente?</option>
-                    <option value="teste1">teste 1</option>
-                    <option value="teste2">teste 2</option>
-                    <option value="teste3">teste 3</option>
-                    <option value="teste4">teste 4</option>
+                    <option value="teste1">Quero incubar minha empresa</option>
+                    <option value="teste2">Quero conhecer presencialmente o espaço </option>
+                    <option value="teste3">Quero alugar uma sala</option>
+                    <option value="teste4">Outro</option>
                 </select>
 
                 <input type="text" placeholder='Nome' />

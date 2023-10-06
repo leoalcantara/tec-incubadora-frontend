@@ -1,5 +1,5 @@
 import styles from './Contact.module.css'
-import { ContactForm } from '../ContactForm/Index'
+import { ContactForm } from '../ContactForm'
 
 export function Contact() {
     return (
