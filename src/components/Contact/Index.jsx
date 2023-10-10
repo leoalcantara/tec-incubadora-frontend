@@ -1,5 +1,6 @@
-import styles from './Contact.module.css'
-import { ContactForm } from '../ContactForm'
+import styles from './Contact.module.css';
+import { ContactForm } from '../ContactForm';
+import {Button} from '../Button';
 
 export function Contact() {
     return (
@@ -11,6 +12,7 @@ export function Contact() {
                         Nos conte a sua ideia e receba o encaminhamento mais adequado.
                         Preencha nosso formulário e nós retornaremos em breve.
                     </p>
+                    <Button text="Acessar formulário"/>
                 </div>
 
                 <ContactForm />

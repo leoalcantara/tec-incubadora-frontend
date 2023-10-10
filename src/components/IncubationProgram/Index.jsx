@@ -1,5 +1,6 @@
 import styles from './IncubationProgram.module.css';
 import ProgramImage from '../../assets/programa-de-incubacao.png';
+import { Button } from '../Button';
 
 export function IncubationProgram(){
     return (
@@ -21,7 +22,9 @@ export function IncubationProgram(){
               <li className={styles.item}>Taxa de 80% de sobrevivência no mercado</li>
               <li className={styles.item}>Networking de alto nível</li>
             </ul>
-            <button>Conheça mais</button>
+            <Button
+              text="Conheça mais"
+            />            
           </div>
         </div>
       </section>
