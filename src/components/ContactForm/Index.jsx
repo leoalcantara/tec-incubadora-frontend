@@ -10,10 +10,8 @@ export function ContactForm() {
 
     function sendEmail(e) {
         e.preventDefault();
-
-        alert(subject);        
+        alert(subject);          
     }
-
 
     return (
         <div className={styles.FormBox}>
@@ -31,6 +29,7 @@ export function ContactForm() {
                     <option value="Conhecer">Quero conhecer presencialmente o espaço </option>
                     <option value="Alugar">Quero alugar uma sala</option>
                     <option value="Outro">Outro</option>
+
                 </select>
 
                 <input
@@ -40,6 +39,7 @@ export function ContactForm() {
                     onChange={(e) => setName(e.target.value)}
                     required
                 />
+
                 <input
                     type="text"
                     placeholder='E-mail de contato'
@@ -47,6 +47,7 @@ export function ContactForm() {
                     onChange={(e) => setEmail(e.target.value)}
                     required
                 />
+                
                 <textarea
                     placeholder='Breve texto sobre o assunto'
                     rows="5"
@@ -54,7 +55,11 @@ export function ContactForm() {
                     onChange={(e) => setMessage(e.target.value)}
                     required
                 />
-                <button>Enviar mensagem</button>
+                <br />
+                <Button 
+                    text="Enviar mensagem"
+                    type='Submit'
+                />
             </form>
             
 
