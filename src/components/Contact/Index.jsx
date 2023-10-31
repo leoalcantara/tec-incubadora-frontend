@@ -6,7 +6,7 @@ export function Contact() {
     return (
         <section className={styles.container}>
             <div className={styles.box}>
-                <div className={styles.ProjectkBox}>
+                <div className={styles.ProjectBox}>
                     <h2>Tem algum projeto em mente?</h2>
                     <p>
                         Nos conte a sua ideia e receba o encaminhamento mais adequado.

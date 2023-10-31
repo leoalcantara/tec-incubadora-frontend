@@ -9,8 +9,7 @@ export function PageNotFound() {
       <NotFound/>
       <Footer/>    
     </>
-
-  );
+  )
 }
 
 
