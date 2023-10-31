@@ -4,9 +4,10 @@ import { NotFound } from "../../components/NotFound/Index";
 
 export function PageNotFound() {
   return (
-    <>      
-      <h1> 404 </h1>
-      <p>Página não encontrada</p>      
+    <>    
+      <Header/>  
+      <NotFound/>
+      <Footer/>    
     </>
 
   );
