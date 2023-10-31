@@ -1,16 +1,16 @@
 import styles from './Navbar.module.css';
+import { Link } from 'react-router-dom';
 
 export function Navbar() {
     return (
-        <nav >
-            <ul className={styles.list}>
-                <li className={styles.item} >Home</li>
-                <li className={styles.item} >Sobre Nós</li>
-                <li className={styles.item} >Serviços</li>
-                <li className={styles.item} >Empresas</li>
-                <li className={styles.item} >Comunicação</li>
-                <li className={styles.item} >Contato</li>
-            </ul>
+        <nav >           
+            <Link to= "/" className={styles.item}> Home </Link >
+            <Link to= "/about" className={styles.item}> Sobre Nós </Link >
+            <Link to= "/services" className={styles.item}> Serviços </Link >
+            <Link to="" className={styles.item}> Empresas </Link >
+            <Link to="" className={styles.item}> Comunicação </Link >
+            <Link to="/contact" className={styles.item}> Contato </Link >
+            
         </nav>
     )
 }

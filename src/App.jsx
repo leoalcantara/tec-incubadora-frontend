@@ -1,4 +1,5 @@
 import styles from "./App.module.css";
+import { Outlet } from "react-router-dom";
 
 
 import "./global.css";
@@ -16,7 +17,7 @@ function App() {
   return (
     <>
       <Header />
-      <Home />
+      <Outlet/>
       <Footer />
     </>
   );
