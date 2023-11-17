@@ -12,7 +12,9 @@
   "dependencies": {
     "@react-google-maps/api": "^2.19.2",
     "react": "^18.2.0",
+    "react-dimension": "^0.1.1",
     "react-dom": "^18.2.0",
+    "react-map-gl": "^7.1.6",
     "react-router-dom": "^6.16.0"
   },
   "devDependencies": {

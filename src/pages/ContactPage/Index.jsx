@@ -1,4 +1,4 @@
-import { ContactForm } from '../../components/ContactForm/Index';
+import { ContactForm } from '../../components/ContactForm';
 import { Map } from '../../components/Map/Index';
 
 import styles from './ContactPage.module.css';
@@ -12,7 +12,7 @@ export function ContactPage(){
             </header>
             <div className={styles.box}>               
                 <ContactForm/>
-                <Map />
+               
             </div>
 
         </div>

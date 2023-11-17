@@ -1,4 +1,5 @@
 import styles from './Footer.Module.css';
+import  {Link} from 'react-router-dom';
 
 import FacebookIcon from '../../assets/icons/icone-face.svg';
 import InstagramIcon from '../../assets/icons/icone-insta.svg';
@@ -13,11 +14,10 @@ export function Footer (){
 
                 <div className={styles.columm}>
                     <h1 className={styles.heading}>Tec Incubadora</h1>
-
-                    <a href="/" className={styles.footerlink}>Home</a>
-                    <a href="/" className={styles.footerlink}>Sobre nós</a>
-                    <a href="/" className={styles.footerlink}>Equipe</a>
-                    <a href="/" className={styles.footerlink}>Contato</a>
+                    <Link to= "/" className={styles.footerlink}> Home </Link >
+                    <Link to= "sobre" className={styles.footerlink}> Sobre Nós </Link >
+                    <Link to= "equipe" className={styles.footerlink}> Equipe </Link >
+                    <Link to= "contato" className={styles.footerlink}> Contato </Link >                   
 
                     <div className={styles.socialMedia}>                        
                         <a href="https://www.youtube.com/@tecincubadora1303" target='_blank'><img src={YoutubeIcon} alt="" /></a>
