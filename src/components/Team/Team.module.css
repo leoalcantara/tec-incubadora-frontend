@@ -1,0 +1,33 @@
+
+.container { 
+    padding: 40px 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    width: 100vw; 
+  
+    background-color: var(--blue-500);
+  }
+  
+  .box {
+    display: flex;
+    width: 1000px;
+    flex-direction: column;   
+  
+    gap: 25px;
+   
+  }
+
+  .box h1 {
+    color: var(--white);    
+  }  
+ 
+
+
+
+  .content{
+    display: flex;   
+    flex-wrap: wrap;  
+
+  }
