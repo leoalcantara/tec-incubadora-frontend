@@ -40,7 +40,7 @@ export function Services() {
                         title="Consultorias"
                         content="As consultorias têm o objetivo de auxiliar organizações para obter financiamento e aprimorar sua tecnologia."
                     />
-                </div>                   
+                    </div>                   
                 </div>
                 
             </section>

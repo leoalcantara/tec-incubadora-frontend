@@ -1,25 +1,26 @@
 .Container {
-    padding: 80px 60px;
-    height: 300px;
+    padding: 5rem 5rem;
+    height: 18rem;
     background-color: var(--green-500);
     display: flex;
 }
 
 .Box {
     display: flex;
-    width: 1000px;
+    width: 50vw;
+    height: auto;
     justify-content: space-between;
     margin: auto;    
 }
 
 .Card {
     padding: 0 10px;
-    max-width: 160px;
+    max-width: 6.5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-
+    margin: 0 1rem;
     gap: 16px;
 }
 

@@ -54,8 +54,7 @@ export function ContactForm() {
                     value={message}
                     onChange={(e) => setMessage(e.target.value)}
                     required
-                />
-                <br />
+                />               
                 <Button 
                     text="Enviar mensagem"
                     type='Submit'

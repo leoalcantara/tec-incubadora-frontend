@@ -5,14 +5,15 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;  
+    width: 100vw;
   
     background-color: var(--gray-300);
   }
   
   .box {
     display: flex;
-    width: 1000px;
-    flex-wrap: auto;
+    max-width: 50vw;
+   
     flex-direction: column;
     justify-content: center;
     align-items: center; 
@@ -33,8 +34,8 @@
     padding: 25px 0;
   }
 
-  .content {
-    display: flex;
+  .content {    
+    display: flex;     
     flex-wrap: wrap;
-    
+    justify-content: center;
   }

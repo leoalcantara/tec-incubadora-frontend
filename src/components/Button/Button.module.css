@@ -6,7 +6,9 @@ button {
     border: none;
     padding: 0.5rem ;
     margin: 0 30px;
-    width: 300px;
+
+    min-width: 12.5rem;
+    
     cursor: pointer;
     transition: 0.2s;
     border: solid 3px var(--green-500);
