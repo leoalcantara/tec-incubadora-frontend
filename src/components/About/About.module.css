@@ -7,7 +7,7 @@
 
 .Box {
     display: flex;
-    width: 50vw;
+    width: 60vw;
     height: auto;
     justify-content: space-between;
     margin: auto;    

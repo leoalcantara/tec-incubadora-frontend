@@ -1,19 +1,25 @@
-.container{
-    padding: 80px 60px;
+.container { 
+    padding: 1rem 3.5rem;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center; 
-    background-color: var(--white); 
-}
+    width: 100vw; 
+  
+    background-color: var(--white);
+  }
 
-.box {
+  .box {
     display: flex;
     width: 60vw;
     flex-direction: row;
     justify-content: space-around;
     align-items: center; 
   
-    gap: 25px;
+    gap: 1.5rem;
   }
 
+  .box img {
+    max-height: 30rem;
+    max-width: 100%;  
+ 
+  }

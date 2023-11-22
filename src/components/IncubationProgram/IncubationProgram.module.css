@@ -10,7 +10,7 @@
 
 .box {
   display: flex;
-  width: 50vw;
+  width: 60vw;
   flex-direction: row;
   justify-content: space-around;
   align-items: center; 

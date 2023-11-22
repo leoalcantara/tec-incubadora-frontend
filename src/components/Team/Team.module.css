@@ -12,7 +12,7 @@
   
   .box {
     display: flex;
-    width: 1000px;
+    width: 60vw;
     flex-direction: column;   
   
     gap: 25px;
