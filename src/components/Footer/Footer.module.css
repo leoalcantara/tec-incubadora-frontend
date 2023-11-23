@@ -18,8 +18,8 @@ footer {
 .row {
     display: grid;
     grid-template-columns: repeat(auto-fill, 
-                           minmax(200px, 1fr));    
-    grid-gap: 5px;
+                           minmax(15rem, 1fr));    
+    grid-gap: 0.5px;
     background: var(--black-300);
 }
 
