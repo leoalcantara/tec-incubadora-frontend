@@ -24,6 +24,10 @@
     color: var(--blue-500);
     margin-bottom: 20px;
   }  
+
+  .box p {
+    color: var(--black-500);
+  }
  
 
   header {

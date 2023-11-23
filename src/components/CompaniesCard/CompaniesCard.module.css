@@ -1,0 +1,19 @@
+.container { 
+    padding: 5rem 3.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    width: 100vw; 
+  
+    background-color: var(--white);
+  }
+  
+  .box {
+    display: flex;
+    width: 60vw;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center; 
+  
+    gap: 1.5rem;
+  }

@@ -8,6 +8,7 @@ import { Home } from './pages/Home/'
 import { AboutUs } from './pages/AboutUs/'
 import { ContactPage } from './pages/ContactPage/'
 import { PageNotFound } from './pages/PageNotFound'
+import { Companies } from './components/Companies/index.jsx'
 
 const router = createBrowserRouter([
   { 
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
       { 
         path: 'sobre', 
         element: <AboutUs/>
+      },
+      { 
+        path: 'empresas', 
+        element: <Companies/>
       },
       { 
         path: 'contato', 

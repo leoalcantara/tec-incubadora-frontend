@@ -1,6 +1,5 @@
 .Container {
-    padding: 5rem 5rem;
-    height: 18rem;
+    padding: 5rem 5rem;    
     background-color: var(--green-500);
     display: flex;
 }
