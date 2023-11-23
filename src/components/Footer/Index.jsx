@@ -31,30 +31,30 @@ export function Footer (){
                 <div className={styles.columm}>
                     <h1 className={styles.heading}>Serviços</h1>
 
-                    <a href="/" className={styles.footerlink}>Incubação</a>
-                    <a href="/" className={styles.footerlink}>Graduação</a>
-                    <a href="/" className={styles.footerlink}>Consultorias</a>
-                    <a href="/" className={styles.footerlink}>PDCE</a>
-                    <a href="/" className={styles.footerlink}>Coworking</a>
-                    <a href="/" className={styles.footerlink}>Aluguel de Salas</a>
+                    <a href="#" className={styles.footerlink}>Incubação</a>
+                    <a href="#" className={styles.footerlink}>Graduação</a>
+                    <a href="#" className={styles.footerlink}>Consultorias</a>
+                    <a href="#" className={styles.footerlink}>PDCE</a>
+                    <a href="#" className={styles.footerlink}>Coworking</a>
+                    <a href="#" className={styles.footerlink}>Aluguel de Salas</a>
                    
                 </div>
 
                 <div className={styles.columm}>
                     <h1 className={styles.heading}>Empresas</h1>
 
-                    <a href="/" className={styles.footerlink}>Incubadas</a>
-                    <a href="/" className={styles.footerlink}>Graduadas</a>
-                    <a href="/" className={styles.footerlink}>Que passou por aqui</a>
+                    <a href="#" className={styles.footerlink}>Incubadas</a>
+                    <a href="#" className={styles.footerlink}>Graduadas</a>
+                    <a href="#" className={styles.footerlink}>Que passou por aqui</a>
                 </div>
 
                 <div className={styles.columm}>
                     <h1 className={styles.heading}>Comunicação</h1>
 
-                    <a href="/" className={styles.footerlink}>Agendas</a>
-                    <a href="/" className={styles.footerlink}>Notícias</a>
-                    <a href="/" className={styles.footerlink}>Podcast</a>
-                    <a href="/" className={styles.footerlink}>Tec Tube</a>
+                    <a href="#" className={styles.footerlink}>Agendas</a>
+                    <a href="#" className={styles.footerlink}>Notícias</a>
+                    <a href="#" className={styles.footerlink}>Podcast</a>
+                    <a href="https://www.youtube.com/@tecincubadora1303" target='_blank' className={styles.footerlink}>Tec Tube</a>
                 </div>
                 
             </div>

@@ -1,12 +1,13 @@
  .card {    
-    width: 300px;
+    width: 20rem;
+    margin-right: 0.5rem;
 
-    padding: 5px 25px;
+    padding: 0.8rem 1rem;
     
     display: flex;
     flex-direction: row;   
 
-    gap: 15px;
+    gap: 1.5rem;
   }
   
   .header {
@@ -46,7 +47,7 @@
   }
 
   h3, p {
-    color: var(--write);
+    color: var(--white);
   }
  
   
