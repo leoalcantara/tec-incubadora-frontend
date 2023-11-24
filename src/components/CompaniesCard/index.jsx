@@ -1,12 +1,12 @@
 import styles from './CompaniesCard.module.css';
 
-import BannerImage from '../../assets/banner.jpg';
+import Logo1 from '../../assets/empresas/graduadas/cluub.png';
 
-export function Cards () {    
+export function CompaniesCard (props) {    
     return (
-       <div className={styles.container}>
+       <div className={styles.card}>
             <div className={styles.box}>
-                <img src={BannerImage} alt="" />
+                <img src={props.URLLogo} alt="" />
             </div>
 
        </div>

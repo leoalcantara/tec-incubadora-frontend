@@ -13,7 +13,7 @@ export function Footer (){
             <div className={styles.row}>
 
                 <div className={styles.columm}>
-                    <h1 className={styles.heading}>Tec Incubadora</h1>
+                    <h2 className={styles.heading}>Tec Incubadora</h2>
                     <Link to= "/" className={styles.footerlink}> Home </Link >
                     <Link to= "sobre" className={styles.footerlink}> Sobre Nós </Link >
                     <Link to= "equipe" className={styles.footerlink}> Equipe </Link >
@@ -29,7 +29,7 @@ export function Footer (){
                 </div>                    
 
                 <div className={styles.columm}>
-                    <h1 className={styles.heading}>Serviços</h1>
+                    <h2 className={styles.heading}>Serviços</h2>
 
                     <a href="#" className={styles.footerlink}>Incubação</a>
                     <a href="#" className={styles.footerlink}>Graduação</a>
@@ -41,7 +41,7 @@ export function Footer (){
                 </div>
 
                 <div className={styles.columm}>
-                    <h1 className={styles.heading}>Empresas</h1>
+                    <h2 className={styles.heading}>Empresas</h2>
 
                     <a href="#" className={styles.footerlink}>Incubadas</a>
                     <a href="#" className={styles.footerlink}>Graduadas</a>
@@ -49,7 +49,7 @@ export function Footer (){
                 </div>
 
                 <div className={styles.columm}>
-                    <h1 className={styles.heading}>Comunicação</h1>
+                    <h2 className={styles.heading}>Comunicação</h2>
 
                     <a href="#" className={styles.footerlink}>Agendas</a>
                     <a href="#" className={styles.footerlink}>Notícias</a>

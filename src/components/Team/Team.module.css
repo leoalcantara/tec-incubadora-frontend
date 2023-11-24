@@ -6,16 +6,18 @@
     justify-content: center;
     align-items: center; 
     width: 100vw; 
+    padding: 10rem 10rem;
   
     background-color: var(--blue-500);
   }
   
   .box {
     display: flex;
-    width: 60vw;
+    width: 65vw;
     flex-direction: column;   
   
     gap: 25px;
+   
    
   }
 

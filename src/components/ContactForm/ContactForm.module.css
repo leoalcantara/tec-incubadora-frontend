@@ -12,13 +12,21 @@
 
 }
 
+.FormBox p {
+   
+    color: var(--black-900) !important;
+     
+}
+
 form {
     display: flex;
     flex-direction: column;
     width: 90%;
     margin: auto;
     gap: 10px;
-}
+    background: var(--gray);}
+
+
 
 input,
 textarea {
