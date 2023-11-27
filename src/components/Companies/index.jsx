@@ -33,47 +33,60 @@ export function Companies() {
                   
                     <CompaniesCard
                         URLLogo={Logo1}
+                        Name={"Cluub"}
                     />
                      <CompaniesCard
                         URLLogo={Logo2}
+                        Name={"Cubbo"}
                     />
 
                      <CompaniesCard
                         URLLogo={Logo3}
+                        Name={"Ecore"}
                     />
                    
                    <CompaniesCard
                         URLLogo={Logo4}
+                        Name={"fulltype"}
                     />
 
                      <CompaniesCard
                         URLLogo={Logo5}
+                        Name={"Inside fx"}
                     />
 
                     <CompaniesCard
                         URLLogo={Logo6}
+                        Name={"Invision"}
                     />
 
                       <CompaniesCard
                         URLLogo={Logo7}
+                        Name={"Me passa aí"}
                     />
                       <CompaniesCard
                         URLLogo={Logo8}
+                        Name={"Portal Arquitetura"}
                     />
                       <CompaniesCard
                         URLLogo={Logo9}
+                        Name={"Rio Norte"}
                     />
                       <CompaniesCard
                         URLLogo={Logo10}
+                        Name={"Roveq"}
                     />
                       <CompaniesCard
                         URLLogo={Logo11}
+                        Name={"Lincar"}
                     />
                       <CompaniesCard
                         URLLogo={Logo12}
+                        Name={"Pediufarma"}
                     />
                       <CompaniesCard
                         URLLogo={Logo13}
+                        Name={"Saluber"}
                     />
                      
                 </div>

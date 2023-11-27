@@ -8,7 +8,7 @@ export function CompaniesCard (props) {
             <div className={styles.box}>
                 <img src={props.URLLogo} alt="" />
             </div>
-
+            <strong>{props.Name}</strong>
        </div>
     );
 }
