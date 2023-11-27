@@ -53,7 +53,7 @@ export function Footer (){
 
                     <a href="#" className={styles.footerlink}>Agendas</a>
                     <a href="#" className={styles.footerlink}>Notícias</a>
-                    <a href="#" className={styles.footerlink}>Podcast</a>
+                    <a href="https://open.spotify.com/show/2fb9nx1HLxm1Ok9UFy1OFO?si=c4bc3107b2ac4bde&nd=1&dlsi=83919e17261f4f41" target='_blank' className={styles.footerlink}>Podcast</a>
                     <a href="https://www.youtube.com/@tecincubadora1303" target='_blank' className={styles.footerlink}>Tec Tube</a>
                 </div>
                 

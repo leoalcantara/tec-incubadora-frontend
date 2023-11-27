@@ -11,7 +11,7 @@
 }
 
 .logoTec {
-    max-width: 200px;
+    max-width: 12.5rem;
     cursor: pointer;
 }
 
@@ -22,12 +22,3 @@
     width: 60vw;
 }
 
-.list {
-    display: flex;    
-    list-style: none;
-    padding: 1rem;
-}
-
-.item a {
-    text-decoration: none;
-}
