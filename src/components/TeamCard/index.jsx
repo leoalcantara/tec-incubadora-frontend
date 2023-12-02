@@ -16,7 +16,8 @@ export function TeamCard(props){
             <div className={styles.header}>            
                 
                 <h3>{props.Name}</h3>
-                <p>Presidente</p>
+                <p>{props.Office}</p>
+
                 
                 <div className={styles.socialIcons}>
                     <img src={InstagramIcon} alt="" />

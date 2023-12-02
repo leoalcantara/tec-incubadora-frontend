@@ -16,7 +16,7 @@ export function ContactForm() {
     return (
         <div className={styles.FormBox}>
             <h2>Entre em contato</h2>
-            <p>Escolha o assunto e detalhe que precisa compartilhar conosco</p>
+            <p>Escolha o assunto e detalhe que deseja compartilhar conosco</p>
 
             <form onSubmit={sendEmail}>
                 <select 

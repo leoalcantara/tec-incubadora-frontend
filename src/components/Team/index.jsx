@@ -25,26 +25,33 @@ export function Team() {
                     <TeamCard 
                         URLAvatar={avatar1}
                         Name={'Henrique da Hora'}
+                        Office={'Presidente'}
                     />
                     <TeamCard 
                          URLAvatar={avatar2}
                          Name={'Edson Terra'}
+                         Office={'Diretor Administrativo'}
                     />
                     <TeamCard 
                         URLAvatar={avatar3}
                         Name={'Luiz Gustavo'}
+                        Office={'Diretor Financeiro'}
                     />
                     <TeamCard 
                          URLAvatar={avatar4}
                          Name={'Rodrigo Lira'}
+                         Office={'Diretor de Tecnologia'}
                     />
                     <TeamCard 
                          URLAvatar={avatar5}
                          Name={'Adriana Crespo'}
+                         Office={'Gerente Administrativa'}
+                        
                     />
                     <TeamCard 
                          URLAvatar={avatar6}  
-                         Name={'Túlio Baita'}  
+                         Name={'Túlio Baita'} 
+                         Office={' Coordenador de Incubação'}
                     />
                 </div>                   
                 </div>

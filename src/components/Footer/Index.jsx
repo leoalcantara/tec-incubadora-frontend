@@ -45,7 +45,7 @@ export function Footer (){
 
                     <a href="#" className={styles.footerlink}>Incubadas</a>
                     <a href="#" className={styles.footerlink}>Graduadas</a>
-                    <a href="#" className={styles.footerlink}>Que passou por aqui</a>
+                    <a href="#" className={styles.footerlink}>Que passaram por aqui</a>
                 </div>
 
                 <div className={styles.columm}>

@@ -14,10 +14,10 @@
   .box {
     display: flex;
     width: 65vw;
-    flex-direction: column;   
+    flex-direction: column; 
+    padding: 0 3rem ;  
   
-    gap: 25px;
-   
+    gap: 25px;   
    
   }
 
