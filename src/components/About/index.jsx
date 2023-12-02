@@ -43,6 +43,7 @@ export function About() {
                         </div>
                     </div>
                 </div>
+                <div>teste</div>
             </section>
         </>
     )
