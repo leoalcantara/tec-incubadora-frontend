@@ -6,7 +6,7 @@ import CoverMission from '@/assets/cover-missao.jpg';
 import CoverVision from '@/assets/cover-visao.jpg';
 import CoverValues from '@/assets/cover-valores.jpg';
 import Coverpropeller from '@/assets/cover-helice.jpg';
-import TecIncubadoraImage from '@/assets/tec-incubadora.svg';
+//import TecIncubadoraImage from '@/assets/tec-incubadora.svg';
 
 export function AboutUs(){
     return (
