@@ -1,12 +1,12 @@
-import { Team } from '../../components/Team';
+import { Team } from '@/components/Team';
 
-import styles from './AboutUs.module.css';
+import styles from '@/pages/AboutUs/AboutUs.module.css';
 
-import CoverMission from '../../assets/cover-missao.jpg';
-import CoverVision from '../../assets/cover-visao.jpg';
-import CoverValues from '../../assets/cover-valores.jpg';
-import Coverpropeller from '../../assets/cover-helice.jpg';
-import TecIncubadoraImage from '../../assets/tec-incubadora.svg'
+import CoverMission from '@/assets/cover-missao.jpg';
+import CoverVision from '@/assets/cover-visao.jpg';
+import CoverValues from '@/assets/cover-valores.jpg';
+import Coverpropeller from '@/assets/cover-helice.jpg';
+import TecIncubadoraImage from '@/assets/tec-incubadora.svg';
 
 export function AboutUs(){
     return (
