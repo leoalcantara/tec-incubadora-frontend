@@ -1,6 +1,6 @@
 import styles from "./ServicesCard.module.css";
 
-import ProgramImage from "../../assets/icons/Incubação.svg"
+import ProgramImage from "../../assets/icons/Incubacao.svg"
 
 export function ServicesCard(props){
     return (

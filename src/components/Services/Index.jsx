@@ -1,6 +1,6 @@
 import { ServicesCard } from "../ServicesCard/";
 
-import IncubationIcon from "../../assets/icons/Incubação.svg"
+import IncubationIcon from "../../assets/icons/Incubacao.svg"
 import RoomIcon from "../../assets/icons/sala.svg"
 import CoworkingIcon from "../../assets/icons/coworking.svg"
 import MentoringIcon from "../../assets/icons/mentoria.svg"
