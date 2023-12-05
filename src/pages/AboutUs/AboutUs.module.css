@@ -15,13 +15,15 @@
     align-items: center; 
 }
 
+/*
 .about {     
-    background-image: url('../../assets//tec-incubadora.svg')  ;
+    background-image: url('@/assets//tec-incubadora.svg')  ;
     
     background-size: cover;
     border-radius: 8px;
     padding: 5rem; 
 }
+*/
 
 h1 {
     color: var(--green-500);

@@ -1,7 +1,7 @@
-import { ContactForm } from '../../components/ContactForm';
-import { Map } from '../../components/Map/Index';
+import { ContactForm } from '@/components/ContactForm';
+import { Map } from '@/components/Map/Index';
 
-import styles from './ContactPage.module.css';
+import styles from '@/pages/ContactPage/ContactPage.module.css';
 
 export function ContactPage(){
     return (
